@@ -1,0 +1,124 @@
+﻿@charset "utf-8";
+/**
+* OLYM Cascading Style Sheets
+* File Name : member.css
+* Description : 회원가입 스타일시트
+* Author : Web business Team / Choi Hyun Mi
+* Email : designtj@olymcompnay.com
+* Date : 2009.12.22
+* Update : 2010.03.26
+* Copyright(c) 2009 OLYM Communications. All Rights Reserved.
+*/
+
+/* 기본설정 */
+input, textarea, select { font-family:"돋움"; font-size:12px; color:#6b6a6a;}
+
+/* input */
+.input_text { font-family:"굴림"; font-size:12px; padding:3px 0 2px 3px; border:1px solid #dee3f1; }
+
+.membership { padding:30px;}
+
+/* 회원가입절차 */
+.membership .process li{ float:left;}
+
+/* 1.가입확인 및 실명확인 */
+.membership h5 { clear:both; padding:34px 0 23px 0;}
+.membership1 { border:1px solid #ececec; background:#fafafa; padding:40px 30px 40px 30px;}
+.memb_box1 { width:376px; padding-bottom:30px; margin:0 auto;}
+.memb_box1 dt { float:left; width:76px; padding:4px 0 6px 0;}
+.memb_box1 dd { width:290px; height:30px;}
+.memb_box1 .memb_com1 { float:right; margin-top:-64px;}
+.p_process1 { background:url(/project/design/memb/line_h_dot.gif) repeat-x; padding-top:35px;}
+
+/* 2.회원약관 동의 */
+.membership2_1 { border:1px solid #ececec; background:#fafafa; padding:15px;}
+.membership2_1 h6 { padding:0 0 7px 0;}
+.stipulation { width:100%; height:200px; border:1px solid #ececec; background:#fff;}
+.agr_check { padding-top:10px;}
+.membership2_2 { border:1px solid #ececec; background:#fafafa; padding:15px; margin-top:10px;}
+.membership2_2 h6 { padding:0 0 7px 0;}
+.policy { width:100%; height:200px; border:1px solid #ececec; background:#fff;}
+.btn_comf { text-align:center; padding:10px;}
+
+/* 3.회원정보입력 */
+.table_register1 { border:2px solid #5178b3; width:100%; margin:0 auto; }
+.table_register1 caption{ display:none;}
+.table_register1 th { font-family:돋움; font-size:11px; font-weight:bold; color:#dee4ee; background:#5878a7; border-bottom:1px solid #e6e6e6; text-align:left; height:30px; padding-left:10px; }
+.table_register1 th.last { font-family:돋움; font-size:11px; font-weight:bold; color:#dee4ee; background:#5878a7; border-bottom:0px solid #e6e6e6; text-align:left; height:30px; padding-left:10px; }
+.table_register1 th label { font-family:돋움; font-size:11px; font-weight:bold; color:#dee4ee; }
+.table_register1 td { border-bottom:1px solid #e6e6e6; height:30px; padding-left:10px; text-align:left; }
+.table_register1 td.last { border-bottom:0px solid #e6e6e6; height:30px; padding-left:10px; text-align:left; }
+.table_register1 td.left2 { border-bottom:1px solid #e6e6e6; height:45px; padding-top:5px; padding-left:10px; line-height:20px; text-align:left; }
+
+/* 회원로그인 */
+.login { padding:30px;}
+.login h5 { clear:both; padding:0 0 23px 0;}
+.login1 { border:1px solid #ececec; background:#fafafa; padding:40px 30px 20px 30px; margin-bottom:30px;}
+.login_box1 { width:376px; padding-bottom:30px; margin:0 auto;}
+.login_box1 dt { float:left; width:76px; padding:4px 0 6px 0;}
+.login_box1 dd { width:290px; height:30px;}
+.login_box1 .login_com1 { float:right; margin-top:-64px;}
+.p_line { background:url(/project/design/memb/line_h_dot.gif) repeat-x; padding-top:35px;}
+.login_box2 { width:510px; margin:0 auto;}
+.login_box2 dt { float:left; height:54px; padding-right:15px;}
+.login_box2 dd { padding-top:15px; height:39px;}
+.login2 { border:1px solid #ececec; background:#fafafa; padding:40px 30px 40px 30px;}
+.login_box3 { width:376px; margin:0 auto;}
+.login_box3 dt { float:left; width:76px; padding:4px 0 6px 0;}
+.login_box3 dd { width:290px; height:30px;}
+.login_box3 .login_com1 { float:right; margin-top:-64px;}
+
+/* 아이디비밀번호찾기 */
+.search_idpw { padding:30px;}
+.search_idpw h5 { clear:both; padding:0 0 23px 0;}
+.search_idpw1 { border:1px solid #ececec; background:#fafafa; padding:40px 30px 25px 30px; margin-bottom:30px;}
+.search_box1 { width:376px; margin:0 auto;}
+.search_box1 dt { float:left; width:76px; padding:4px 0 6px 0;}
+.search_box1 dd { width:290px; height:30px;}
+.search_box1 .search_com1 { float:right; margin-top:-64px;}
+.search_idpw2 { border:1px solid #ececec; background:#fafafa; padding:40px 30px 25px 30px;}
+.search_box2 { width:376px; margin:0 auto;}
+.search_box2 dt { float:left; width:76px; padding:4px 0 6px 0;}
+.search_box2 dd { width:290px; height:30px;}
+.search_box2 .search_com1 { float:right; margin-top:-64px;}
+
+/* 회원탈퇴 */
+.secession { padding:30px;}
+.secession h5 { clear:both; padding:0 0 23px 0;}
+.secession1 { border:1px solid #ececec; background:#fafafa; padding:10px; }
+.secession1 ul { clear:both; }
+.secession1 li { float:left; }
+
+/* 이용약관 팝업 */
+.popup_stipulation { padding:15px; font-size:11px; font-family:"돋움"; color:#767676; line-height:14px;}
+.popup_stipulation h1 { font-size:11px; font-family:"돋움"; color:#6969d1; line-height:14px; font-weight:bold;}
+.popup_stipulation h2 { font-size:11px; font-family:"돋움"; line-height:14px; font-weight:bold; padding:15px 0 10px 0;}
+.popup_stipulation h3 { font-size:11px; font-family:"돋움"; line-height:14px; color:#6969d1; font-weight:normal; padding:5px 0 5px 0;}
+.popup_stipulation h4 { font-size:11px; font-family:"돋움"; line-height:14px; font-weight:bold;}
+
+
+/* 폼태그 */
+.form1 { border:1px solid #dee3f1; height:18px;}
+.form_mem1 { border:1px solid #e4e4e4; height:17px; font-size:12px; font-family:"돋움"; padding:3px 0 0 3px;}
+.form_mem2 { border:1px solid #e4e4e4; height:17px; font-size:12px; font-family:"돋움"; padding:3px 0 0 3px; width:80px;}
+.select1 { font-family:"돋움"; font-size:11px;}
+.textarea1 { font-family:"굴림"; font-size:12px; width:620px; height:100px; border:1px solid #dee3f1;}
+.textarea_mem1 { font-family:"굴림"; font-size:12px; width:510px; height:50px; border:1px solid #e4e4e4;}
+
+/* form 사이즈별 */
+.input_60 { width:60px; border:1px solid #e4e4e4; height:18px;}
+.input_30 { width:30px; border:1px solid #e4e4e4; height:18px;}
+.input_120 { width:120px; border:1px solid #e4e4e4; height:18px;}
+.input_300 { width:300px; border:1px solid #e4e4e4; height:18px;}
+.radio { width:auto; border:0px;}
+.textarea_500 { width:99%; margin:3px 0px 3px 0px; border:1px solid #e4e4e4; }
+
+/* 강조 color */
+.font11_bluegray { font-family:돋움; font-size:11px; color:#6e747d; }
+
+/* 반복사용 */
+.font_eng_orange { font-family:tahoma; font-size:11px; color:#fe6732; font-weight:bold;} /* 영문폰트 tahoma orange 11px 굵게 */
+.font_eng { font-family:tahoma; font-size:11px;} /* 영문폰트 tahoma 11px */
+.font_kor_11 { font-family:"돋움"; font-size:11px;} /* 국문폰트 돋움 11px */
+.font_kor_12b { font-family:"굴림"; font-size:12px; font-weight:bold; color:#5e83bc;} /* 국문폰트 굴림 12px 굵게 */
+.font_kor_purple { font-family:"굴림"; font-size:12px; color:#6969d1;}

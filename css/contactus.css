@@ -1,0 +1,55 @@
+﻿@charset "utf-8";
+/**
+* OLYM Cascading Style Sheets
+* File Name : contacus.css
+* Description : 관리자문의 스타일시트
+* Author : Web business Team / Choi Hyun Mi
+* Email : designtj@olymcompnay.com
+* Date : 2009.12.02
+* Update : 2010.05.28
+* Copyright(c) 2009 OLYM Communications. All Rights Reserved.
+*/
+caption { display:none; }
+
+#contactus_wrap { width:620px; height:100%; background-color:#ffffff; background-image:url("../design/contactus/bg_popup_r.gif"); background-repeat:repeat-y; background-position:right top; }
+#contactus_header { overflow:hidden; position:relative; width:auto; height:76px; }
+#contactus_container { min-height:100%; margin: -76px 0 -40px 0; padding:0 5px 0 5px; width:auto; background:url("../design/contactus/bg_popup_l.gif") repeat-y; }
+*html #contactus_container { height:100%; }
+#contactus_footer { overflow:hidden; clear:both; position:relative; height:10px; }
+
+/* header */
+#contactus_head_left { float:left; position:relative; top:-76px; width:10px; height:76px; background-image:url("../design/contactus/bg_popup_lt.gif"); background-repeat:no-repeat; }
+#contactus_head_center { clear:both; position:relative; top:0; width:100%; height:76px; background-image:url("../design/contactus/bg_popup_top.gif"); background-repeat:repeat-x; }
+#contactus_head_right { float:right; position:relative; top:-76px; width:68px; height:76px; background-image:url("../design/contactus/bg_popup_rt.gif"); background-repeat:no-repeat; }
+
+#contactus_head_content { position:absolute; top:22px; left:0; width:100%; }
+#contactus_logo { position:absolute; top:30px; left:30px; }
+#contactus_head_content h1 { padding:0 0 9px 35px; }
+#contactus_header p { padding:0 0 0px 35px; }
+
+#contactus_contents_box { padding: 86px 20px 50px 20px; }
+
+#line_h { height:14px; background:url("../design/contactus/line_h_popup.gif") repeat-x; }
+
+/* 온라인문의 */
+.form_esse { background: url("../design/contactus/bg_esse.gif") no-repeat; font-family:돋움; font-size:11px; color:#fff; padding:2px; margin:10px;}
+
+.table_form2 { width:100%; border-top:2px solid #7c7c7c;  table-layout:fixed; font-family:돋움; font-size:11px; color:#6d6d6d;}
+.table_form caption { display:none; }
+/* .table_form2 tr {  background: url("../design/contactus/bg_form.gif") repeat-x; }배경이미지 */
+.table_form2 th {  border-bottom:1px solid #dddddd; text-align:left; padding-left:10px; background:#8f8f8f; }
+.table_form2 th.bg2 {  border-bottom:1px solid #dddddd; text-align:left; padding-left:10px; background:#a3a3a3; }
+.table_form2 th label {  font-family:돋움; font-size:11px; color:#fff; }
+.table_form2 td { padding:5px;  border-bottom:1px solid #dddddd;}
+
+.c_red { color:#fe6732; font-size:11px; font-weight:bold; padding-left:5px; }
+.input_form { border:1px solid #d9d9d9; background:#f8f8f8; padding:3px; }
+.textarea_form { border:1px solid #d9d9d9; background:#f8f8f8; padding:3px; height:100px; width:98%; font-size:12px; }
+
+#contactus_btn_bottom { width:120px; height:25px; margin:0 auto; padding:5px; }
+.clear { clear:both; width: 100%; height:0; font-size:0; line-height:0; }
+
+/* footer */
+#contactus_foot_left { float:left; position:absolute; top:0px; left:0; width:10px; height:10px; background-image:url("../design/contactus/bg_popup_lb.gif"); background-repeat:no-repeat; background-position:left top; }
+#contactus_foot_center { clear:both; position:relative; top:0; width:100%; height:10px; background-image:url("../design/contactus/bg_popup_btm.gif"); background-repeat:repeat-x; background-position:left top; }
+#contactus_foot_right { float:right; position:absolute; top:0px; right:0; width:10px; height:10px; background-image:url("../design/contactus/bg_popup_rb.gif"); background-repeat:no-repeat; background-position:right top; }

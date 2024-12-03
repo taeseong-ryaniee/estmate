@@ -1,0 +1,89 @@
+﻿@charset "utf-8";
+/* OLYM communications Web Business Team (http://itchem.olymcompany.com) CHM 091116 */
+
+/* Type Selector */
+body { margin:0; padding:0; font-family:"굴림", Gulim, Trebuchet MS, Arial, Helvetica, sans-serif; color:#7b7d80; font-size:12px; line-height:20px; }
+
+/* 기본설정 */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { padding:0; margin:0; }
+
+img, fieldset, button { border:none; }
+
+hr, button img { display:none; }
+
+li { list-style:none; }
+
+a { color:#7b7d80; text-decoration:none; }
+a:hover, a:active, a:focus { color:#668ac0; text-decoration:underline; }
+
+textarea { overflow:auto; }
+
+legend { position:absolute; top:0; left:0; width:0; height:0; overflow:hidden; visibility:hidden; font-size:0; line-height:0; } /* For Screen Reader */
+
+#include { display:none;}
+
+/* Layout Selector */
+html { overflow:scroll; overflow-x:auto; }
+html, body { height:100%; }
+body { background-image:url("/project/design/manu/bg_body.gif"); background-repeat:repeat-y; }
+
+#wrap { width:auto; min-width:980px; height:100%; }
+#header { overflow:hidden; position:relative; width:auto; height:96px; background:url("/project/design/manu/bg_lnb_right.gif") repeat-x left 54px; }
+#container { min-height:100%; margin: -96px 0 -60px 0; width:auto;}
+*html #container { height:100%; }
+#footer { overflow:hidden; clear:both; position:relative; height:60px; background:url("/project/design/manu/bg_footer.gif"); }
+
+/* header */
+h1 { float:left; padding:17px 0 6px 18px; background:#fff;}
+
+#lnb { clear:both; float:left; position:relative; height:42px; background:url("/project/design/manu/bg_lnb_left.gif") repeat-x; }
+#lnb ul { padding-left:195px; width:747px; }
+#lnb li { float:left; }
+
+#lnb .ul_admin { padding-left:195px; width:651px; }
+#lnb .ul_admin li { float:left; }
+/* //header */
+
+/* container */
+.contents-box { padding: 96px 0 0 0; }
+.clear { clear:both; width: 100%; height:0; font-size:0; line-height:0; }
+
+#snb { overflow:hidden; width:186px; float:left; position:absolute; top:96;left:0; padding:13px 0 0 9px; background:url("/project/design/manu/bg_snb_top1.gif") no-repeat;}
+#snb2 { overflow:hidden; width:186px; float:left; position:relative; padding:13px 0 0 9px; background:url("/project/design/manu/bg_snb_top.gif") no-repeat;}
+#snb h2 { }
+
+#nav { padding:15px 0 0 5px;}
+#nav ul { margin-left:-5px; padding-top:10px;}
+#nav li { padding-top:3px;}
+
+/*dtree css */
+#dtree { white-space: nowrap; line-height:0; } /*자동줄바꿈 안됨*/
+#dtree img { vertical-align: middle; }
+#dtree a { color:#555555; text-decoration: none; }
+#dtree a.node, #dtree a.nodeSel { white-space: nowrap; padding: 1px 2px 1px 2px; }
+#dtree a.node:hover, #dtree a.nodeSel:hover { text-decoration: underline; }
+#dtree a.nodeSel { background:none; font-weight:bold; }
+#dtree .clip { overflow: hidden; }
+
+/* 롤오버 이미지 */
+a.rollover img { display:inline; border-width:0; }
+a.rollover img.over { display:none; }
+a.rollover:hover { border:0 }
+a.rollover:hover img { display:none; }
+a.rollover:hover img.over { display:inline; }
+
+#colgroup { float:left; width:700px; padding:15px 30px 25px 30px; }
+h3 { color:#187697; font-weight:bold; font-size:12px; padding-bottom:15px; }
+
+#content { }
+#content p { padding-bottom:20px;}
+.manual_list { padding-top:20px;}
+.manual_list li { line-height:24px;}
+.manual_list li span {display:block; float:left; width:20px; color:#46aac7; font-family:verdana; font-size:10px; font-weight:bold;}
+.btn_top { background:url("/project/design/manu/line_h_dot.gif") repeat-x ; text-align:right; padding:5px 2px 20px 0; margin-top:30px; }
+.c_orange { color:#fe6732; font-style:normal;}
+/* //container */
+
+/* footer */
+#copyright { z-index:10; position:relative; padding:22px 0 0 20px;}
+/* //footer */

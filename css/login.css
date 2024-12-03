@@ -1,0 +1,64 @@
+﻿@charset "utf-8";
+/* OLYM communications Web Business Team (http://itchem.olymcompany.com) CHM 091026 */
+
+/* Type Selector */
+* { margin:0; padding:0; font-family:"굴림", Gulim, Trebuchet MS, Arial, Helvetica, sans-serif; color:#7b7d80; font-size:12px; }
+
+/* 기본설정 */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { padding:0; margin:0; }
+
+img, fieldset, button { border:none; }
+
+hr, button img { display:none; }
+
+li { list-style:none; }
+
+a { text-decoration:none; }
+a:hover, a:active, a:focus { text-decoration:underline; }
+
+textarea { overflow:auto; }
+
+legend { position:absolute; top:0; left:0; width:0; height:0; overflow:hidden; visibility:hidden; font-size:0; line-height:0; } /* For Screen Reader */
+
+body { background:url("/project/design/login/bg_body_login.gif") repeat-x;}
+
+
+/* Layout Selector */
+
+#include { display:none;}
+
+#warp { width:920px; height:530px; margin:0 auto; position:relative; top:150px; background:url("/project/design/login/bg_login.gif") no-repeat center 37px; }
+
+#header { height:37px; }
+h1 { float:left; padding-left:20px; }
+#header p { float:right; padding:18px 20px 3px 0; }
+
+#container { clear:both; padding:72px 105px 78px 105px; height:308px; }
+#container .img_com { float:left; padding-right:26px; }
+h2 { float:left; padding:6px 0 17px 0; }
+#container p { float:left; }
+#webmail { float:right; position:absolute; top:13px; right:7px; }
+
+/* 롤오버 이미지 */
+a.rollover img { display:inline; border-width:0; }
+a.rollover img.over { display:none; }
+a.rollover:hover { border:0 }
+a.rollover:hover img { display:none; }
+a.rollover:hover img.over { display:inline; }
+
+#login_box { clear:both; padding:65px 0 0 144px; position:relative; }
+#login_box dl { width:278px; }
+#login_box dt { float:left; width:64px; padding-top:4px; }
+#login_box dd { float:left; width:214px; padding-bottom:9px; }
+#login_box dd input { width:200px; padding:2px; border:1px solid #d9d9d9; }
+
+#idsave_box { clear:both; width:80px; padding-left:190px; }
+#login_box .login { float:left; position:absolute; left: 417px; top: 60px; }
+
+.bottom_btn { padding-top:55px; }
+.bottom_btn li p { float:left; padding:4px 10px 0 0; }
+.bottom_btn li a { padding-bottom:2px; }
+
+#footer { clear:both; padding-right:19px; text-align:right; }
+
+

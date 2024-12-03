@@ -1,0 +1,46 @@
+﻿@charset "utf-8";
+
+body { margin:0; padding:0; font-family:"굴림", Gulim, Trebuchet MS, Arial, Helvetica, sans-serif; color:#000000; font-size:12px; }
+
+/* 기본설정 */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { padding:0; margin:0; }
+
+img, fieldset, button { border:none; }
+
+hr, button img { display:none; }
+
+li { list-style:none; }
+
+a { color:#000000; text-decoration:none; }
+a:hover, a:active, a:focus { color:#668ac0; text-decoration:underline; }
+
+textarea { overflow:auto; }
+
+
+/* 결재문서작성/결재문서보기/결재완료문서 테이블 */
+.table3 { width:100%; table-layout:fixed; border:0 solid #e0f1fb; }
+.table3 caption { display:none; }
+.table3 th { padding:8px 0 7px 0; background:#e9e9e9; color:#000000; border:1px solid #000000; border-bottom:0px solid #000000; border-right:0px solid #000000; font-weight:normal; }
+.table3 th label { color:#000000; }
+.table3 th.last { height:20px; background:#e9e9e9; color:#000000; border:1px solid #000000; border-right:0px solid #000000;}
+.table3 td { padding:8px 0 7px 0; text-align:center; border:1px solid #000000; border-bottom:0px solid #000000; border-right:0px solid #000000; }
+.table3 td.left{ padding-left:10px; text-align:left; border:1px solid #000000; border-bottom:0px solid #000000; border-right:0px solid #000000; }
+.table3 td.left2{ padding-left:10px; text-align:left; border:1px solid #000000; border-bottom:0px solid #000000; }
+.table3 td.last { text-align:center; border-right:1px solid #000000; }
+.table3 td.last2 { text-align:center; border-right:0px solid #000000; }
+.table3 td.last3 { text-align:center; border-bottom:1px solid #000000; border-right:1px solid #000000; }
+.table3 td.left_last { padding-left:10px; text-align:left;  border:1px solid #000000; }
+.table3 td.left_last img { vertical-align:middle; }
+.table3 td.appr_ul { padding:0; }
+.table3 td.last_appr_ul { padding:0; text-align:center; border-right:1px solid #000000; }
+.table3 td ul .li1 { overflow:hidden; height:14px; padding:4px 0 2px 0; background:#e9e9e9; border-bottom:1px solid #000000; font-size:11px color:#000000; }
+.table3 td ul .li2 { height:60px; padding-top:0; border-bottom:1px solid #000000; }
+.table3 td ul .li2_sel { height:42px; padding-top:8px; border-bottom:1px solid #000000; }
+.table3 td ul .li2_sign { height:50px;  border-bottom:1px solid #000000; }
+.table3 td ul .li2_sel p { padding-bottom:4px; }
+.table3 td ul .li3 { height:16px; padding-top:4px; color:#000000; font-size:11px; letter-spacing:-0.03em; }
+.table3 td .com_ul { padding:0 10px 10px 0; }
+.table3 td .com_date { float:left; padding-left:10px; color:#000000; font-size:11px; }
+.table3 td .com_name { float:left; font-size:11px; font-family:"돋움"; }
+.table3 td .com_content { clear:both; padding:5px 0 5px 0; border-bottom:1px solid #000000; font-size:11px; }
+.table3 td.blank { padding:10px; color:#000000; border:1px solid #000000; text-align:left }
